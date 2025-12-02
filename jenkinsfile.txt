@@ -43,7 +43,7 @@ pipeline{
      steps{
 		 echo "Compilation..."
 	    script{
-			sh "mvn clean package"
+			bat "mvn clean package"
 		}//end of script
 	 }//end of steps
    }//end of stage
@@ -51,7 +51,7 @@ pipeline{
  post{
       success {
          script {
-	    sh "java -cp target/helloworld-1.1.jar com.demo.helloworld.HelloWorld"
+	    bat "java -cp target/helloworld-1.1.jar com.demo.helloworld.HelloWorld"
 	 }
       }
       always{		
