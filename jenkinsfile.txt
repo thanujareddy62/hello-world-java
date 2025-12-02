@@ -32,7 +32,7 @@ pipeline{
                         submoduleCfg: [],
                         userRemoteConfigs: [
                             [
-                                url: 'https://github.com/venh/hello-world-java.git'				    
+                                url: 'https://github.com/thanujareddy62/hello-world-java.git'				    
                             ]
                         ]
                     ]
